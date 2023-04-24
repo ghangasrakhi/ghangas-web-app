@@ -5,4 +5,4 @@ function App() {
   return <div>Hello {value}</div>;
 }
 
-export default App;
+
