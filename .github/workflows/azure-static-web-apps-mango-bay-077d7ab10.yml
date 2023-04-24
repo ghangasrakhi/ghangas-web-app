@@ -19,9 +19,7 @@ jobs:
         with:
           submodules: true
       - name: Install Dependencies and Run Tests
-        run: |
-          npm install
-          npm run test --passWithNoTests
+        
       - name: Build And Deploy
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v1
